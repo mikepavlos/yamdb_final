@@ -1,6 +1,6 @@
 # проект Yamdb API
 
-![workflows-badge](https://github.com/mikepavlos/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![CI/CD](https://github.com/mikepavlos/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ### Описание проекта:
 
@@ -12,7 +12,8 @@
 - регистрации пользователей, для которых существует возможность создания рецензий к произведениям в текстовом виде с проставлением личной оценки
 (которая в свою очередь будет складываться в общий рейтинг произведения) и создания комментариев к существующим рецензиям.
 
-Для развертывания проекта применена система контейнеров Docker. 
+Проект разворачивается в контейнерах Docker, с использованием технологий CI/CD 
+(continuous integration и continuous deployment)
 
 ### Стек технологий:
 
@@ -30,15 +31,12 @@
 
 ### Как запустить проект:
 
-Запуск проекта из контейнеров Docker возможна двумя способами
-
-1. #### Путем сборки образа проекта из локальной директории:
-
-Клонировать репозиторий и перейти в директорию `infra/`:
+Клонировать репозиторий:
 
 ```commandline
-git clone https://github.com/mikepavlos/infra_sp2.git
+https://github.com/mikepavlos/yamdb_final.git
 ```
+
 ```commandline
 cd infra_sp2/infra
 ```
