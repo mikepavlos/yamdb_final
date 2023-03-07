@@ -24,7 +24,6 @@ services:
       - db
     env_file:
       - .env
-    entrypoint: automigrate.sh
 
   nginx:
     image: nginx:1.21.3-alpine
