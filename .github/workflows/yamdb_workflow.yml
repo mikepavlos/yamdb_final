@@ -1,8 +1,6 @@
 name: CI/CD API_Yamdb
 
-on:
-  push:
-    branches: [master]
+on: [push]
 
 jobs:
   tests:
