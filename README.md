@@ -76,7 +76,7 @@ docker-compose up -d
 Во вкладке настроек репозитория проекта, в меню выбрать `Secrets and variables` выбрать `Actions`, нажав кнопку `New repository secret`, создать переменные окружения:
 
 ```
-SECRET_KEY             # секретный ключ джанго-проекта
+SECRET_KEY             # "секретный ключ джанго-проекта"
 ALLOWED_HOSTS          # ip-адрес сервера, на котором разворачивается проект
 
 DOCKER_USERNAME        # имя пользователя в DockerHub
