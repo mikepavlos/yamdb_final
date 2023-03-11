@@ -77,7 +77,7 @@ docker-compose up -d
 
 ```
 SECRET_KEY             # "секретный ключ джанго-проекта" в кавычках
-ALLOWED_HOSTS          # ip-адрес сервера, на котором разворачивается проект
+ALLOWED_HOSTS          # *
 
 DOCKER_USERNAME        # имя пользователя в DockerHub
 DOCKER_PASSWORD        # пароль доступа в DockerHub
