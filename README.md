@@ -186,7 +186,9 @@ sudo docker-compose exec web python manage.py loaddata fixtures.json
 
 ### Авторы проекта:
 
-- Тимлид-разработчик, контейнеризация, DevOps сервиса: Михаил Павлов https://github.com/mikepavlos
+- Тимлид-разработчик, контейнеризация, DevOps сервиса: Михаил Павлов https://github.com/mikepavlos  
+emai mike_pavlovsky@hotmail.com  
+telegram @miha1is
 
 - Разработчик: Даниил Чебенев https://github.com/ZonRedress
 
