@@ -193,4 +193,3 @@ telegram @miha1is
 - Разработчик: Даниил Чебенев https://github.com/ZonRedress
 
 - Разработчик: Марк Ройтблат (ex-Фролов) https://github.com/frolovmark
-
